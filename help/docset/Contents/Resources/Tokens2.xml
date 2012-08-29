@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewBodyScannerController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewBodyScannerController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/setParts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *parts</Declaration>
+			
+			
+			<Anchor>//api/name/parts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyScannerController/parts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *parts</Declaration>
+			
+			
+			<Anchor>//api/name/parts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/setIvParts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *ivParts</Declaration>
+			
+			
+			<Anchor>//api/name/ivParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyScannerController/ivParts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSArray *ivParts</Declaration>
+			
+			
+			<Anchor>//api/name/ivParts</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/setScroller:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIScrollView *scroller</Declaration>
+			
+			
+			<Anchor>//api/name/scroller</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyScannerController/scroller</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UIScrollView *scroller</Declaration>
+			
+			
+			<Anchor>//api/name/scroller</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/getImageAspect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)getImageAspect:(UIImage *)img</Declaration>
+			
+			
+			<Anchor>//api/name/getImageAspect:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/updateLayout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateLayout:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/updateLayout:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/initDisplay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)initDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/initDisplay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/animationHasFinished:finished:context:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)animationHasFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context</Declaration>
+			
+			
+			<Anchor>//api/name/animationHasFinished:finished:context:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/fadeOutView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)fadeOutView</Declaration>
+			
+			
+			<Anchor>//api/name/fadeOutView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/fadeInView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)fadeInView</Declaration>
+			
+			
+			<Anchor>//api/name/fadeInView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/animShowView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)animShowView</Declaration>
+			
+			
+			<Anchor>//api/name/animShowView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/loadButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)loadButtons</Declaration>
+			
+			
+			<Anchor>//api/name/loadButtons</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/partsButton_TouchDown:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)partsButton_TouchDown:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/partsButton_TouchDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/startScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)startScanner</Declaration>
+			
+			
+			<Anchor>//api/name/startScanner</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/scroll:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)scroll:(NSTimer *)theTimer</Declaration>
+			
+			
+			<Anchor>//api/name/scroll:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyScannerController/startScrolling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyScannerController.h</DeclaredIn>			
+			
+			<Declaration>- (void)startScrolling</Declaration>
+			
+			
+			<Anchor>//api/name/startScrolling</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

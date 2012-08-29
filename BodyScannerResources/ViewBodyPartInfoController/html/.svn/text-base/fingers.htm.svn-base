@@ -1,0 +1,24 @@
+<html>
+	<header>
+		<title>guide</title>
+<script type="text/javascript">
+var winW = 320, winH = 320;
+winW = screen.width;
+winH = screen.height;
+if(winW > 480 || winH > 480) {
+	document.write('<link type="text/css" rel="stylesheet" media="all" href="partsL.css" />');
+}
+else {
+	document.write('<link type="text/css" rel="stylesheet" media="all" href="parts.css" />');
+}
+</script>
+	</header>
+	<body>
+		<div>
+			<hr />
+			During the fight or flight response, blood flow to your fingers and toes is reduced so that you'd lose less blood if you were injured.  Your hands would feel cold and clammy and you'd notice tingling sensations in your feet and toes.
+			<hr />
+			<br />
+		</div>
+	</body>
+</html>

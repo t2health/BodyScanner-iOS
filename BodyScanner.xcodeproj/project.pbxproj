@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0816D70015E1BCFC0041C6E5 /* ViewBodyPartInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0816D6FE15E1BCFC0041C6E5 /* ViewBodyPartInfoController.m */; };
+		0816D70115E1BCFC0041C6E5 /* ViewBodyScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0816D6FF15E1BCFC0041C6E5 /* ViewBodyScannerController.m */; };
+		0816D70415E1BD390041C6E5 /* ViewBodyPartInfoController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0816D70215E1BD390041C6E5 /* ViewBodyPartInfoController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0816D70515E1BD390041C6E5 /* ViewBodyScannerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0816D70315E1BD390041C6E5 /* ViewBodyScannerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082D74F415E99DD1009F3BE7 /* bodyscanner.plist in Resources */ = {isa = PBXBuildFile; fileRef = 082D74F315E99DD1009F3BE7 /* bodyscanner.plist */; };
+		08B0504A15E5E05E00893568 /* ibreathe_body_scan0.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0500D15E5E05D00893568 /* ibreathe_body_scan0.png */; };
+		08B0504B15E5E05E00893568 /* ibreathe_body_scan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0500E15E5E05D00893568 /* ibreathe_body_scan1.png */; };
+		08B0504C15E5E05E00893568 /* ibreathe_body_scan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0500F15E5E05D00893568 /* ibreathe_body_scan2.png */; };
+		08B0504D15E5E05E00893568 /* ibreathe_body_scan3.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501015E5E05D00893568 /* ibreathe_body_scan3.png */; };
+		08B0504E15E5E05E00893568 /* ibreathe_body_scan4.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501115E5E05D00893568 /* ibreathe_body_scan4.png */; };
+		08B0504F15E5E05E00893568 /* ibreathe_body_scan5.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501215E5E05D00893568 /* ibreathe_body_scan5.png */; };
+		08B0505015E5E05E00893568 /* bbrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501415E5E05D00893568 /* bbrain.png */; };
+		08B0505115E5E05E00893568 /* bclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501515E5E05D00893568 /* bclose.png */; };
+		08B0505215E5E05E00893568 /* bears.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501615E5E05D00893568 /* bears.png */; };
+		08B0505315E5E05E00893568 /* beyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501715E5E05D00893568 /* beyes.png */; };
+		08B0505415E5E05E00893568 /* bfingers.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501815E5E05D00893568 /* bfingers.png */; };
+		08B0505515E5E05E00893568 /* bglow.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501915E5E05D00893568 /* bglow.png */; };
+		08B0505615E5E05E00893568 /* bglow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501A15E5E05D00893568 /* bglow2.png */; };
+		08B0505715E5E05E00893568 /* bheart.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501B15E5E05D00893568 /* bheart.png */; };
+		08B0505815E5E05E00893568 /* bimmune.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501C15E5E05D00893568 /* bimmune.png */; };
+		08B0505915E5E05E00893568 /* blungs.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501D15E5E05D00893568 /* blungs.png */; };
+		08B0505A15E5E05E00893568 /* bmuscles.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501E15E5E05D00893568 /* bmuscles.png */; };
+		08B0505B15E5E05E00893568 /* bouterglow.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0501F15E5E05D00893568 /* bouterglow.png */; };
+		08B0505C15E5E05E00893568 /* bskin.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502015E5E05D00893568 /* bskin.png */; };
+		08B0505D15E5E05E00893568 /* bstomach.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502115E5E05D00893568 /* bstomach.png */; };
+		08B0505E15E5E05E00893568 /* ibreathe_body.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502315E5E05D00893568 /* ibreathe_body.png */; };
+		08B0505F15E5E05E00893568 /* ibreathe_body_clip.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502415E5E05D00893568 /* ibreathe_body_clip.png */; };
+		08B0506015E5E05E00893568 /* ibreathe_body_immunesystem.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502515E5E05D00893568 /* ibreathe_body_immunesystem.png */; };
+		08B0506115E5E05E00893568 /* ibreathe_brain.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502615E5E05D00893568 /* ibreathe_brain.png */; };
+		08B0506215E5E05E00893568 /* ibreathe_circulatory.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502715E5E05D00893568 /* ibreathe_circulatory.png */; };
+		08B0506315E5E05E00893568 /* ibreathe_ears.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502815E5E05D00893568 /* ibreathe_ears.png */; };
+		08B0506415E5E05E00893568 /* ibreathe_eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502915E5E05D00893568 /* ibreathe_eyes.png */; };
+		08B0506515E5E05E00893568 /* ibreathe_lungs.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502A15E5E05D00893568 /* ibreathe_lungs.png */; };
+		08B0506615E5E05E00893568 /* ibreathe_muscles.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502B15E5E05D00893568 /* ibreathe_muscles.png */; };
+		08B0506715E5E05E00893568 /* ibreathe_skin.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502C15E5E05D00893568 /* ibreathe_skin.png */; };
+		08B0506815E5E05E00893568 /* ibreathe_skin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502D15E5E05D00893568 /* ibreathe_skin2.png */; };
+		08B0506915E5E05E00893568 /* ibreathe_stomach.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0502E15E5E05D00893568 /* ibreathe_stomach.png */; };
+		08B0506A15E5E05E00893568 /* brain.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503115E5E05D00893568 /* brain.htm */; };
+		08B0506B15E5E05E00893568 /* circulatory.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503215E5E05D00893568 /* circulatory.htm */; };
+		08B0506C15E5E05E00893568 /* ears.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503315E5E05D00893568 /* ears.htm */; };
+		08B0506D15E5E05E00893568 /* eyes.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503415E5E05D00893568 /* eyes.htm */; };
+		08B0506E15E5E05E00893568 /* fingers.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503515E5E05D00893568 /* fingers.htm */; };
+		08B0506F15E5E05E00893568 /* immunesystem.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503615E5E05D00893568 /* immunesystem.htm */; };
+		08B0507015E5E05E00893568 /* lungs.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503715E5E05D00893568 /* lungs.htm */; };
+		08B0507115E5E05E00893568 /* muscles.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503815E5E05D00893568 /* muscles.htm */; };
+		08B0507215E5E05E00893568 /* parts.css in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503915E5E05D00893568 /* parts.css */; };
+		08B0507315E5E05E00893568 /* partsL.css in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503A15E5E05D00893568 /* partsL.css */; };
+		08B0507415E5E05E00893568 /* skin.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503B15E5E05D00893568 /* skin.htm */; };
+		08B0507515E5E05E00893568 /* stomach.htm in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503C15E5E05D00893568 /* stomach.htm */; };
+		08B0507615E5E05E00893568 /* InfoBoxB.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503E15E5E05D00893568 /* InfoBoxB.png */; };
+		08B0507715E5E05E00893568 /* InfoBoxBL.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0503F15E5E05D00893568 /* InfoBoxBL.png */; };
+		08B0507815E5E05E00893568 /* InfoBoxBR.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504015E5E05D00893568 /* InfoBoxBR.png */; };
+		08B0507915E5E05E00893568 /* InfoBoxC.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504115E5E05D00893568 /* InfoBoxC.png */; };
+		08B0507A15E5E05E00893568 /* InfoBoxCL.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504215E5E05D00893568 /* InfoBoxCL.png */; };
+		08B0507B15E5E05E00893568 /* InfoBoxML.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504315E5E05D00893568 /* InfoBoxML.png */; };
+		08B0507C15E5E05E00893568 /* InfoBoxMR.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504415E5E05D00893568 /* InfoBoxMR.png */; };
+		08B0507D15E5E05E00893568 /* InfoBoxT.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504515E5E05D00893568 /* InfoBoxT.png */; };
+		08B0507E15E5E05E00893568 /* InfoBoxTL.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504615E5E05D00893568 /* InfoBoxTL.png */; };
+		08B0507F15E5E05E00893568 /* InfoBoxTR.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B0504715E5E05D00893568 /* InfoBoxTR.png */; };
+		08E415ED15E47ECA009D4C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0816D6F115E1BBC10041C6E5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0816D6EE15E1BBC10041C6E5 /* libBodyScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBodyScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0816D6F115E1BBC10041C6E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0816D6F515E1BBC10041C6E5 /* BodyScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BodyScanner-Prefix.pch"; sourceTree = "<group>"; };
+		0816D6FE15E1BCFC0041C6E5 /* ViewBodyPartInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBodyPartInfoController.m; sourceTree = "<group>"; };
+		0816D6FF15E1BCFC0041C6E5 /* ViewBodyScannerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewBodyScannerController.m; sourceTree = "<group>"; };
+		0816D70215E1BD390041C6E5 /* ViewBodyPartInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBodyPartInfoController.h; sourceTree = "<group>"; };
+		0816D70315E1BD390041C6E5 /* ViewBodyScannerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewBodyScannerController.h; sourceTree = "<group>"; };
+		0816D72215E1EC390041C6E5 /* BodyScannerResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyScannerResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0816D72315E1EC390041C6E5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0816D72715E1EC390041C6E5 /* BodyScannerResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BodyScannerResources-Info.plist"; sourceTree = "<group>"; };
+		082D74F315E99DD1009F3BE7 /* bodyscanner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bodyscanner.plist; sourceTree = "<group>"; };
+		08B0500D15E5E05D00893568 /* ibreathe_body_scan0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan0.png; sourceTree = "<group>"; };
+		08B0500E15E5E05D00893568 /* ibreathe_body_scan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan1.png; sourceTree = "<group>"; };
+		08B0500F15E5E05D00893568 /* ibreathe_body_scan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan2.png; sourceTree = "<group>"; };
+		08B0501015E5E05D00893568 /* ibreathe_body_scan3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan3.png; sourceTree = "<group>"; };
+		08B0501115E5E05D00893568 /* ibreathe_body_scan4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan4.png; sourceTree = "<group>"; };
+		08B0501215E5E05D00893568 /* ibreathe_body_scan5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_scan5.png; sourceTree = "<group>"; };
+		08B0501415E5E05D00893568 /* bbrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbrain.png; sourceTree = "<group>"; };
+		08B0501515E5E05D00893568 /* bclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bclose.png; sourceTree = "<group>"; };
+		08B0501615E5E05D00893568 /* bears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bears.png; sourceTree = "<group>"; };
+		08B0501715E5E05D00893568 /* beyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beyes.png; sourceTree = "<group>"; };
+		08B0501815E5E05D00893568 /* bfingers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bfingers.png; sourceTree = "<group>"; };
+		08B0501915E5E05D00893568 /* bglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bglow.png; sourceTree = "<group>"; };
+		08B0501A15E5E05D00893568 /* bglow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bglow2.png; sourceTree = "<group>"; };
+		08B0501B15E5E05D00893568 /* bheart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bheart.png; sourceTree = "<group>"; };
+		08B0501C15E5E05D00893568 /* bimmune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bimmune.png; sourceTree = "<group>"; };
+		08B0501D15E5E05D00893568 /* blungs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blungs.png; sourceTree = "<group>"; };
+		08B0501E15E5E05D00893568 /* bmuscles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmuscles.png; sourceTree = "<group>"; };
+		08B0501F15E5E05D00893568 /* bouterglow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouterglow.png; sourceTree = "<group>"; };
+		08B0502015E5E05D00893568 /* bskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bskin.png; sourceTree = "<group>"; };
+		08B0502115E5E05D00893568 /* bstomach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bstomach.png; sourceTree = "<group>"; };
+		08B0502315E5E05D00893568 /* ibreathe_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body.png; sourceTree = "<group>"; };
+		08B0502415E5E05D00893568 /* ibreathe_body_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_clip.png; sourceTree = "<group>"; };
+		08B0502515E5E05D00893568 /* ibreathe_body_immunesystem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_body_immunesystem.png; sourceTree = "<group>"; };
+		08B0502615E5E05D00893568 /* ibreathe_brain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_brain.png; sourceTree = "<group>"; };
+		08B0502715E5E05D00893568 /* ibreathe_circulatory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_circulatory.png; sourceTree = "<group>"; };
+		08B0502815E5E05D00893568 /* ibreathe_ears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_ears.png; sourceTree = "<group>"; };
+		08B0502915E5E05D00893568 /* ibreathe_eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_eyes.png; sourceTree = "<group>"; };
+		08B0502A15E5E05D00893568 /* ibreathe_lungs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_lungs.png; sourceTree = "<group>"; };
+		08B0502B15E5E05D00893568 /* ibreathe_muscles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_muscles.png; sourceTree = "<group>"; };
+		08B0502C15E5E05D00893568 /* ibreathe_skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_skin.png; sourceTree = "<group>"; };
+		08B0502D15E5E05D00893568 /* ibreathe_skin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_skin2.png; sourceTree = "<group>"; };
+		08B0502E15E5E05D00893568 /* ibreathe_stomach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibreathe_stomach.png; sourceTree = "<group>"; };
+		08B0503115E5E05D00893568 /* brain.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = brain.htm; sourceTree = "<group>"; };
+		08B0503215E5E05D00893568 /* circulatory.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = circulatory.htm; sourceTree = "<group>"; };
+		08B0503315E5E05D00893568 /* ears.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ears.htm; sourceTree = "<group>"; };
+		08B0503415E5E05D00893568 /* eyes.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = eyes.htm; sourceTree = "<group>"; };
+		08B0503515E5E05D00893568 /* fingers.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fingers.htm; sourceTree = "<group>"; };
+		08B0503615E5E05D00893568 /* immunesystem.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = immunesystem.htm; sourceTree = "<group>"; };
+		08B0503715E5E05D00893568 /* lungs.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lungs.htm; sourceTree = "<group>"; };
+		08B0503815E5E05D00893568 /* muscles.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = muscles.htm; sourceTree = "<group>"; };
+		08B0503915E5E05D00893568 /* parts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = parts.css; sourceTree = "<group>"; };
+		08B0503A15E5E05D00893568 /* partsL.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = partsL.css; sourceTree = "<group>"; };
+		08B0503B15E5E05D00893568 /* skin.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = skin.htm; sourceTree = "<group>"; };
+		08B0503C15E5E05D00893568 /* stomach.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = stomach.htm; sourceTree = "<group>"; };
+		08B0503E15E5E05D00893568 /* InfoBoxB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxB.png; sourceTree = "<group>"; };
+		08B0503F15E5E05D00893568 /* InfoBoxBL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxBL.png; sourceTree = "<group>"; };
+		08B0504015E5E05D00893568 /* InfoBoxBR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxBR.png; sourceTree = "<group>"; };
+		08B0504115E5E05D00893568 /* InfoBoxC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxC.png; sourceTree = "<group>"; };
+		08B0504215E5E05D00893568 /* InfoBoxCL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxCL.png; sourceTree = "<group>"; };
+		08B0504315E5E05D00893568 /* InfoBoxML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxML.png; sourceTree = "<group>"; };
+		08B0504415E5E05D00893568 /* InfoBoxMR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxMR.png; sourceTree = "<group>"; };
+		08B0504515E5E05D00893568 /* InfoBoxT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxT.png; sourceTree = "<group>"; };
+		08B0504615E5E05D00893568 /* InfoBoxTL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxTL.png; sourceTree = "<group>"; };
+		08B0504715E5E05D00893568 /* InfoBoxTR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBoxTR.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0816D6EB15E1BBC10041C6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E415ED15E47ECA009D4C42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0816D71F15E1EC390041C6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0816D6E315E1BBC10041C6E5 = {
+			isa = PBXGroup;
+			children = (
+				0816D70215E1BD390041C6E5 /* ViewBodyPartInfoController.h */,
+				0816D70315E1BD390041C6E5 /* ViewBodyScannerController.h */,
+				0816D6FE15E1BCFC0041C6E5 /* ViewBodyPartInfoController.m */,
+				0816D6FF15E1BCFC0041C6E5 /* ViewBodyScannerController.m */,
+				0816D6F315E1BBC10041C6E5 /* BodyScanner */,
+				0816D72515E1EC390041C6E5 /* BodyScannerResources */,
+				0816D6F015E1BBC10041C6E5 /* Frameworks */,
+				0816D6EF15E1BBC10041C6E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0816D6EF15E1BBC10041C6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0816D6EE15E1BBC10041C6E5 /* libBodyScanner.a */,
+				0816D72215E1EC390041C6E5 /* BodyScannerResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0816D6F015E1BBC10041C6E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0816D6F115E1BBC10041C6E5 /* Foundation.framework */,
+				0816D72315E1EC390041C6E5 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0816D6F315E1BBC10041C6E5 /* BodyScanner */ = {
+			isa = PBXGroup;
+			children = (
+				0816D6F415E1BBC10041C6E5 /* Supporting Files */,
+			);
+			path = BodyScanner;
+			sourceTree = "<group>";
+		};
+		0816D6F415E1BBC10041C6E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0816D6F515E1BBC10041C6E5 /* BodyScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0816D72515E1EC390041C6E5 /* BodyScannerResources */ = {
+			isa = PBXGroup;
+			children = (
+				082D74F315E99DD1009F3BE7 /* bodyscanner.plist */,
+				08B0500C15E5E05D00893568 /* barimages */,
+				08B0501315E5E05D00893568 /* buttons */,
+				08B0502215E5E05D00893568 /* images */,
+				08B0502F15E5E05D00893568 /* ViewBodyPartInfoController */,
+				0816D72615E1EC390041C6E5 /* SupportFiles */,
+			);
+			path = BodyScannerResources;
+			sourceTree = "<group>";
+		};
+		0816D72615E1EC390041C6E5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0816D72715E1EC390041C6E5 /* BodyScannerResources-Info.plist */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		08B0500C15E5E05D00893568 /* barimages */ = {
+			isa = PBXGroup;
+			children = (
+				08B0500D15E5E05D00893568 /* ibreathe_body_scan0.png */,
+				08B0500E15E5E05D00893568 /* ibreathe_body_scan1.png */,
+				08B0500F15E5E05D00893568 /* ibreathe_body_scan2.png */,
+				08B0501015E5E05D00893568 /* ibreathe_body_scan3.png */,
+				08B0501115E5E05D00893568 /* ibreathe_body_scan4.png */,
+				08B0501215E5E05D00893568 /* ibreathe_body_scan5.png */,
+			);
+			path = barimages;
+			sourceTree = "<group>";
+		};
+		08B0501315E5E05D00893568 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				08B0501415E5E05D00893568 /* bbrain.png */,
+				08B0501515E5E05D00893568 /* bclose.png */,
+				08B0501615E5E05D00893568 /* bears.png */,
+				08B0501715E5E05D00893568 /* beyes.png */,
+				08B0501815E5E05D00893568 /* bfingers.png */,
+				08B0501915E5E05D00893568 /* bglow.png */,
+				08B0501A15E5E05D00893568 /* bglow2.png */,
+				08B0501B15E5E05D00893568 /* bheart.png */,
+				08B0501C15E5E05D00893568 /* bimmune.png */,
+				08B0501D15E5E05D00893568 /* blungs.png */,
+				08B0501E15E5E05D00893568 /* bmuscles.png */,
+				08B0501F15E5E05D00893568 /* bouterglow.png */,
+				08B0502015E5E05D00893568 /* bskin.png */,
+				08B0502115E5E05D00893568 /* bstomach.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		08B0502215E5E05D00893568 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				08B0502315E5E05D00893568 /* ibreathe_body.png */,
+				08B0502415E5E05D00893568 /* ibreathe_body_clip.png */,
+				08B0502515E5E05D00893568 /* ibreathe_body_immunesystem.png */,
+				08B0502615E5E05D00893568 /* ibreathe_brain.png */,
+				08B0502715E5E05D00893568 /* ibreathe_circulatory.png */,
+				08B0502815E5E05D00893568 /* ibreathe_ears.png */,
+				08B0502915E5E05D00893568 /* ibreathe_eyes.png */,
+				08B0502A15E5E05D00893568 /* ibreathe_lungs.png */,
+				08B0502B15E5E05D00893568 /* ibreathe_muscles.png */,
+				08B0502C15E5E05D00893568 /* ibreathe_skin.png */,
+				08B0502D15E5E05D00893568 /* ibreathe_skin2.png */,
+				08B0502E15E5E05D00893568 /* ibreathe_stomach.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		08B0502F15E5E05D00893568 /* ViewBodyPartInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				08B0503015E5E05D00893568 /* html */,
+				08B0503D15E5E05D00893568 /* InfoBoxPieces */,
+			);
+			path = ViewBodyPartInfoController;
+			sourceTree = "<group>";
+		};
+		08B0503015E5E05D00893568 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				08B0503115E5E05D00893568 /* brain.htm */,
+				08B0503215E5E05D00893568 /* circulatory.htm */,
+				08B0503315E5E05D00893568 /* ears.htm */,
+				08B0503415E5E05D00893568 /* eyes.htm */,
+				08B0503515E5E05D00893568 /* fingers.htm */,
+				08B0503615E5E05D00893568 /* immunesystem.htm */,
+				08B0503715E5E05D00893568 /* lungs.htm */,
+				08B0503815E5E05D00893568 /* muscles.htm */,
+				08B0503915E5E05D00893568 /* parts.css */,
+				08B0503A15E5E05D00893568 /* partsL.css */,
+				08B0503B15E5E05D00893568 /* skin.htm */,
+				08B0503C15E5E05D00893568 /* stomach.htm */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		08B0503D15E5E05D00893568 /* InfoBoxPieces */ = {
+			isa = PBXGroup;
+			children = (
+				08B0503E15E5E05D00893568 /* InfoBoxB.png */,
+				08B0503F15E5E05D00893568 /* InfoBoxBL.png */,
+				08B0504015E5E05D00893568 /* InfoBoxBR.png */,
+				08B0504115E5E05D00893568 /* InfoBoxC.png */,
+				08B0504215E5E05D00893568 /* InfoBoxCL.png */,
+				08B0504315E5E05D00893568 /* InfoBoxML.png */,
+				08B0504415E5E05D00893568 /* InfoBoxMR.png */,
+				08B0504515E5E05D00893568 /* InfoBoxT.png */,
+				08B0504615E5E05D00893568 /* InfoBoxTL.png */,
+				08B0504715E5E05D00893568 /* InfoBoxTR.png */,
+			);
+			path = InfoBoxPieces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0816D6EC15E1BBC10041C6E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0816D70415E1BD390041C6E5 /* ViewBodyPartInfoController.h in Headers */,
+				0816D70515E1BD390041C6E5 /* ViewBodyScannerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0816D6ED15E1BBC10041C6E5 /* BodyScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0816D6FB15E1BBC10041C6E5 /* Build configuration list for PBXNativeTarget "BodyScanner" */;
+			buildPhases = (
+				0816D6EA15E1BBC10041C6E5 /* Sources */,
+				0816D6EB15E1BBC10041C6E5 /* Frameworks */,
+				0816D6EC15E1BBC10041C6E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyScanner;
+			productName = BodyScanner;
+			productReference = 0816D6EE15E1BBC10041C6E5 /* libBodyScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0816D72115E1EC390041C6E5 /* BodyScannerResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0816D72E15E1EC3A0041C6E5 /* Build configuration list for PBXNativeTarget "BodyScannerResources" */;
+			buildPhases = (
+				0816D71E15E1EC390041C6E5 /* Sources */,
+				0816D71F15E1EC390041C6E5 /* Frameworks */,
+				0816D72015E1EC390041C6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyScannerResources;
+			productName = BodyScannerResources;
+			productReference = 0816D72215E1EC390041C6E5 /* BodyScannerResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0816D6E515E1BBC10041C6E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0816D6E815E1BBC10041C6E5 /* Build configuration list for PBXProject "BodyScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0816D6E315E1BBC10041C6E5;
+			productRefGroup = 0816D6EF15E1BBC10041C6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0816D6ED15E1BBC10041C6E5 /* BodyScanner */,
+				0816D72115E1EC390041C6E5 /* BodyScannerResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0816D72015E1EC390041C6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B0504A15E5E05E00893568 /* ibreathe_body_scan0.png in Resources */,
+				08B0504B15E5E05E00893568 /* ibreathe_body_scan1.png in Resources */,
+				08B0504C15E5E05E00893568 /* ibreathe_body_scan2.png in Resources */,
+				08B0504D15E5E05E00893568 /* ibreathe_body_scan3.png in Resources */,
+				08B0504E15E5E05E00893568 /* ibreathe_body_scan4.png in Resources */,
+				08B0504F15E5E05E00893568 /* ibreathe_body_scan5.png in Resources */,
+				08B0505015E5E05E00893568 /* bbrain.png in Resources */,
+				08B0505115E5E05E00893568 /* bclose.png in Resources */,
+				08B0505215E5E05E00893568 /* bears.png in Resources */,
+				08B0505315E5E05E00893568 /* beyes.png in Resources */,
+				08B0505415E5E05E00893568 /* bfingers.png in Resources */,
+				08B0505515E5E05E00893568 /* bglow.png in Resources */,
+				08B0505615E5E05E00893568 /* bglow2.png in Resources */,
+				08B0505715E5E05E00893568 /* bheart.png in Resources */,
+				08B0505815E5E05E00893568 /* bimmune.png in Resources */,
+				08B0505915E5E05E00893568 /* blungs.png in Resources */,
+				08B0505A15E5E05E00893568 /* bmuscles.png in Resources */,
+				08B0505B15E5E05E00893568 /* bouterglow.png in Resources */,
+				08B0505C15E5E05E00893568 /* bskin.png in Resources */,
+				08B0505D15E5E05E00893568 /* bstomach.png in Resources */,
+				08B0505E15E5E05E00893568 /* ibreathe_body.png in Resources */,
+				08B0505F15E5E05E00893568 /* ibreathe_body_clip.png in Resources */,
+				08B0506015E5E05E00893568 /* ibreathe_body_immunesystem.png in Resources */,
+				08B0506115E5E05E00893568 /* ibreathe_brain.png in Resources */,
+				08B0506215E5E05E00893568 /* ibreathe_circulatory.png in Resources */,
+				08B0506315E5E05E00893568 /* ibreathe_ears.png in Resources */,
+				08B0506415E5E05E00893568 /* ibreathe_eyes.png in Resources */,
+				08B0506515E5E05E00893568 /* ibreathe_lungs.png in Resources */,
+				08B0506615E5E05E00893568 /* ibreathe_muscles.png in Resources */,
+				08B0506715E5E05E00893568 /* ibreathe_skin.png in Resources */,
+				08B0506815E5E05E00893568 /* ibreathe_skin2.png in Resources */,
+				08B0506915E5E05E00893568 /* ibreathe_stomach.png in Resources */,
+				08B0506A15E5E05E00893568 /* brain.htm in Resources */,
+				08B0506B15E5E05E00893568 /* circulatory.htm in Resources */,
+				08B0506C15E5E05E00893568 /* ears.htm in Resources */,
+				08B0506D15E5E05E00893568 /* eyes.htm in Resources */,
+				08B0506E15E5E05E00893568 /* fingers.htm in Resources */,
+				08B0506F15E5E05E00893568 /* immunesystem.htm in Resources */,
+				08B0507015E5E05E00893568 /* lungs.htm in Resources */,
+				08B0507115E5E05E00893568 /* muscles.htm in Resources */,
+				08B0507215E5E05E00893568 /* parts.css in Resources */,
+				08B0507315E5E05E00893568 /* partsL.css in Resources */,
+				08B0507415E5E05E00893568 /* skin.htm in Resources */,
+				08B0507515E5E05E00893568 /* stomach.htm in Resources */,
+				08B0507615E5E05E00893568 /* InfoBoxB.png in Resources */,
+				08B0507715E5E05E00893568 /* InfoBoxBL.png in Resources */,
+				08B0507815E5E05E00893568 /* InfoBoxBR.png in Resources */,
+				08B0507915E5E05E00893568 /* InfoBoxC.png in Resources */,
+				08B0507A15E5E05E00893568 /* InfoBoxCL.png in Resources */,
+				08B0507B15E5E05E00893568 /* InfoBoxML.png in Resources */,
+				08B0507C15E5E05E00893568 /* InfoBoxMR.png in Resources */,
+				08B0507D15E5E05E00893568 /* InfoBoxT.png in Resources */,
+				08B0507E15E5E05E00893568 /* InfoBoxTL.png in Resources */,
+				08B0507F15E5E05E00893568 /* InfoBoxTR.png in Resources */,
+				082D74F415E99DD1009F3BE7 /* bodyscanner.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0816D6EA15E1BBC10041C6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0816D70015E1BCFC0041C6E5 /* ViewBodyPartInfoController.m in Sources */,
+				0816D70115E1BCFC0041C6E5 /* ViewBodyScannerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0816D71E15E1EC390041C6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0816D6F915E1BBC10041C6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0816D6FA15E1BBC10041C6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0816D6FC15E1BBC10041C6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BodyScanner.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScanner/BodyScanner-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /resources;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0816D6FD15E1BBC10041C6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BodyScanner.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BodyScanner/BodyScanner-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /resources;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0816D72C15E1EC3A0041C6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "BodyScannerResources/BodyScannerResources-Info.plist";
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0816D72D15E1EC3A0041C6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "BodyScannerResources/BodyScannerResources-Info.plist";
+				INSTALL_PATH = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0816D6E815E1BBC10041C6E5 /* Build configuration list for PBXProject "BodyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816D6F915E1BBC10041C6E5 /* Debug */,
+				0816D6FA15E1BBC10041C6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0816D6FB15E1BBC10041C6E5 /* Build configuration list for PBXNativeTarget "BodyScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816D6FC15E1BBC10041C6E5 /* Debug */,
+				0816D6FD15E1BBC10041C6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0816D72E15E1EC3A0041C6E5 /* Build configuration list for PBXNativeTarget "BodyScannerResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816D72C15E1EC3A0041C6E5 /* Debug */,
+				0816D72D15E1EC3A0041C6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0816D6E515E1BBC10041C6E5 /* Project object */;
+}

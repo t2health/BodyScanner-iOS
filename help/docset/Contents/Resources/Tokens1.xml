@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewBodyPartInfoController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewBodyPartInfoController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/setLblTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILabel *lblTitle</Declaration>
+			
+			
+			<Anchor>//api/name/lblTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyPartInfoController/lblTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UILabel *lblTitle</Declaration>
+			
+			
+			<Anchor>//api/name/lblTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/setParentController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) ViewBodyScannerController *parentController</Declaration>
+			
+			
+			<Anchor>//api/name/parentController</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyPartInfoController/parentController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) ViewBodyScannerController *parentController</Declaration>
+			
+			
+			<Anchor>//api/name/parentController</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/setSURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sURL</Declaration>
+			
+			
+			<Anchor>//api/name/sURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyPartInfoController/sURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sURL</Declaration>
+			
+			
+			<Anchor>//api/name/sURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/setSTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sTitle</Declaration>
+			
+			
+			<Anchor>//api/name/sTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewBodyPartInfoController/sTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *sTitle</Declaration>
+			
+			
+			<Anchor>//api/name/sTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/MaxOfFontForLabel:andWidth:andHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (int)MaxOfFontForLabel:(UILabel *)lbl andWidth:(CGFloat)width andHeight:(CGFloat)height</Declaration>
+			
+			
+			<Anchor>//api/name/MaxOfFontForLabel:andWidth:andHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/initDisplay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)initDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/initDisplay</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/updateLayout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateLayout:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/updateLayout:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/animClose</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)animClose</Declaration>
+			
+			
+			<Anchor>//api/name/animClose</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/animShow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)animShow</Declaration>
+			
+			
+			<Anchor>//api/name/animShow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/showInfo:filename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)showInfo:(NSString *)titleOfPart filename:(NSString *)fileToLoad</Declaration>
+			
+			
+			<Anchor>//api/name/showInfo:filename:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewBodyPartInfoController/animationHasFinished:finished:context:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewBodyPartInfoController.h</DeclaredIn>			
+			
+			<Declaration>- (void)animationHasFinished:(NSString *)animationID finished:(BOOL)finished context:(void *)context</Declaration>
+			
+			
+			<Anchor>//api/name/animationHasFinished:finished:context:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

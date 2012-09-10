@@ -179,7 +179,7 @@ const CGFloat kLabelAspect = (100.0f/57.0f);
 		newSize = CGSizeMake(frame.size.width * 1.5f, (frame.size.width * 1.5f) * DEFAULTBODYASPECT);
 	}
 	aspectRatio = newSize.width / kDEFAULTBODYWIDTH;
-
+    
 	[scroller setContentSize:newSize];
 	UIEdgeInsets inset;
 	if (frame.size.width > frame.size.height) { //landscape

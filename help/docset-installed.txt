@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /Users/briandoherty/Library/Developer/Shared/Documentation/DocSets/com.T2.BodyScanner.docset
-Time: 2012-08-27 02:20:24 +0000

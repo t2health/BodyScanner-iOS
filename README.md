@@ -1,4 +1,4 @@
-BodyScanner
+BodyScanner Module
 ===============
 
 [Official Site: http://www.t2health.org](http://t2health.org)
